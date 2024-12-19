@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-714bfffa7c16a4fd086a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simple_realsense_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_subscriber-11b3faf711dd2bed844c.json",
+					"name" : "depth_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_subscriber_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_subscriber_autogen-0e55fa0dce50104f7ae9.json",
+					"name" : "depth_subscriber_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_subscriber_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_subscriber_autogen_timestamp_deps-d447390d4eb50de475e9.json",
+					"name" : "depth_subscriber_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense_viewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense_viewer-aec714bcbaa0446d91e0.json",
+					"name" : "realsense_viewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense_viewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense_viewer_autogen-89d7c35de311794d1cd0.json",
+					"name" : "realsense_viewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense_viewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense_viewer_autogen_timestamp_deps-e71213867aa5ca13f32d.json",
+					"name" : "realsense_viewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_realsense_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_realsense_ros_uninstall-bc42bc8a7a10b2aeefe2.json",
+					"name" : "simple_realsense_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d3e794536ce08d8756ab.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros",
+		"source" : "/home/thornch/ROS2_Repo/simple_realsense_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (simple_realsense_ros) JobQueued: {'identifier': 'simple_realsense_ros', 'dependencies': OrderedDict()}
+[0.000473] (simple_realsense_ros) JobStarted: {'identifier': 'simple_realsense_ros'}
+[0.005411] (simple_realsense_ros) JobProgress: {'identifier': 'simple_realsense_ros', 'progress': 'cmake'}
+[0.005735] (simple_realsense_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/thornch/ROS2_Repo/simple_realsense_ros', '-DCMAKE_INSTALL_PREFIX=/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros'], 'cwd': '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/usr/local/onnxruntime-linux-x64-1.15.1/lib:/usr/local/onnxruntime-linux-x64-gpu-1.15.1/lib'), ('HOME', '/home/thornch'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/thornch/ROS2_Repo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '21502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install:/home/thornch/ROS2_Repo/pyqt_realsense/install:/home/thornch/ROS2_Repo/simple_realsense/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thornch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/thornch/miniconda3/envs/onnx/lib/pkgconfig::/usr/local/lib/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ONNXRUNTIME_ROOT', '/usr/local/onnxruntime-linux-x64-gpu-1.15.1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.1/bin:/usr/local/cuda-12.1/bin:/home/thornch/miniconda3/condabin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/onnxruntime-linux-x64-1.15.1/bin:/usr/local/onnxruntime-linux-x64-gpu-1.15.1/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2049,unix/thornch-ubuntu:/tmp/.ICE-unix/2049'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42cb3a76_f17f_44e5_a19a_3005bbbbe684'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.153'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/home/thornch/ROS2_Repo/simple_realsense/install/simple_realsense:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-12.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros:/home/thornch/ROS2_Repo/simple_realsense/install/simple_realsense:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble')]), 'shell': False}
+[0.061387] (simple_realsense_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099997] (-) TimerEvent: {}
+[0.120384] (simple_realsense_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.125241] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200351] (-) TimerEvent: {}
+[0.220743] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.229877] (simple_realsense_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.230017] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.230252] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.245081] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300278] (-) TimerEvent: {}
+[0.300420] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.309528] (simple_realsense_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.309707] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.310074] (simple_realsense_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.326187] (simple_realsense_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400437] (-) TimerEvent: {}
+[0.448947] (simple_realsense_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.499362] (simple_realsense_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500492] (-) TimerEvent: {}
+[0.520041] (simple_realsense_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.522886] (simple_realsense_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527635] (simple_realsense_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.534471] (simple_realsense_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.543957] (simple_realsense_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.570023] (simple_realsense_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.571527] (simple_realsense_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600593] (-) TimerEvent: {}
+[0.624547] (simple_realsense_ros) StdoutLine: {'line': b'-- Found OpenSSL: /home/thornch/miniconda3/envs/onnx/lib/libcrypto.so (found version "3.3.1")\n'}
+[0.646757] (simple_realsense_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.672784] (simple_realsense_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.677389] (simple_realsense_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700778] (-) TimerEvent: {}
+[0.753861] (simple_realsense_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.754831] (simple_realsense_ros) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.795158] (simple_realsense_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.800889] (-) TimerEvent: {}
+[0.818179] (simple_realsense_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.825474] (simple_realsense_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.846342] (simple_realsense_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.10.0")\n'}
+[0.884138] (simple_realsense_ros) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.900989] (-) TimerEvent: {}
+[0.910158] (simple_realsense_ros) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.912552] (simple_realsense_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros\n'}
+[0.919711] (simple_realsense_ros) CommandEnded: {'returncode': 0}
+[0.920330] (simple_realsense_ros) JobProgress: {'identifier': 'simple_realsense_ros', 'progress': 'build'}
+[0.921047] (simple_realsense_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros', '--', '-j24', '-l24'], 'cwd': '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/usr/local/onnxruntime-linux-x64-1.15.1/lib:/usr/local/onnxruntime-linux-x64-gpu-1.15.1/lib'), ('HOME', '/home/thornch'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/thornch/ROS2_Repo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '21502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install:/home/thornch/ROS2_Repo/pyqt_realsense/install:/home/thornch/ROS2_Repo/simple_realsense/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thornch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/thornch/miniconda3/envs/onnx/lib/pkgconfig::/usr/local/lib/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ONNXRUNTIME_ROOT', '/usr/local/onnxruntime-linux-x64-gpu-1.15.1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.1/bin:/usr/local/cuda-12.1/bin:/home/thornch/miniconda3/condabin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/onnxruntime-linux-x64-1.15.1/bin:/usr/local/onnxruntime-linux-x64-gpu-1.15.1/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2049,unix/thornch-ubuntu:/tmp/.ICE-unix/2049'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42cb3a76_f17f_44e5_a19a_3005bbbbe684'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.153'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/home/thornch/ROS2_Repo/simple_realsense/install/simple_realsense:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-12.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros:/home/thornch/ROS2_Repo/simple_realsense/install/simple_realsense:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble')]), 'shell': False}
+[0.945820] (simple_realsense_ros) StdoutLine: {'line': b'[  0%] Built target realsense_viewer_autogen_timestamp_deps\n'}
+[0.946334] (simple_realsense_ros) StdoutLine: {'line': b'[  0%] Built target depth_subscriber_autogen_timestamp_deps\n'}
+[0.967055] (simple_realsense_ros) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target realsense_viewer\x1b[0m\n'}
+[0.967423] (simple_realsense_ros) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target depth_subscriber\x1b[0m\n'}
+[1.001078] (-) TimerEvent: {}
+[1.002852] (simple_realsense_ros) StdoutLine: {'line': b'[ 18%] Built target depth_subscriber_autogen\n'}
+[1.016176] (simple_realsense_ros) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/depth_subscriber.dir/src/depth_subscriber.cpp.o\x1b[0m\n'}
+[1.016393] (simple_realsense_ros) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/depth_subscriber.dir/depth_subscriber_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.101256] (-) TimerEvent: {}
+[1.190199] (simple_realsense_ros) StdoutLine: {'line': b'[ 36%] Built target realsense_viewer_autogen\n'}
+[1.201345] (-) TimerEvent: {}
+[1.208149] (simple_realsense_ros) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/realsense_viewer.dir/realsense_viewer_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.208332] (simple_realsense_ros) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/realsense_viewer.dir/src/main.cpp.o\x1b[0m\n'}
+[1.208370] (simple_realsense_ros) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/realsense_viewer.dir/src/viewer.cpp.o\x1b[0m\n'}
+[1.301442] (-) TimerEvent: {}
+[1.401712] (-) TimerEvent: {}
+[1.501988] (-) TimerEvent: {}
+[1.602322] (-) TimerEvent: {}
+[1.702707] (-) TimerEvent: {}
+[1.803135] (-) TimerEvent: {}
+[1.903574] (-) TimerEvent: {}
+[2.003933] (-) TimerEvent: {}
+[2.104314] (-) TimerEvent: {}
+[2.204732] (-) TimerEvent: {}
+[2.305116] (-) TimerEvent: {}
+[2.405563] (-) TimerEvent: {}
+[2.505957] (-) TimerEvent: {}
+[2.606327] (-) TimerEvent: {}
+[2.706670] (-) TimerEvent: {}
+[2.806983] (-) TimerEvent: {}
+[2.907357] (-) TimerEvent: {}
+[3.007750] (-) TimerEvent: {}
+[3.108076] (-) TimerEvent: {}
+[3.208490] (-) TimerEvent: {}
+[3.308879] (-) TimerEvent: {}
+[3.409171] (-) TimerEvent: {}
+[3.509513] (-) TimerEvent: {}
+[3.609828] (-) TimerEvent: {}
+[3.710214] (-) TimerEvent: {}
+[3.810587] (-) TimerEvent: {}
+[3.910962] (-) TimerEvent: {}
+[4.011361] (-) TimerEvent: {}
+[4.111682] (-) TimerEvent: {}
+[4.211922] (-) TimerEvent: {}
+[4.312212] (-) TimerEvent: {}
+[4.412455] (-) TimerEvent: {}
+[4.512761] (-) TimerEvent: {}
+[4.613027] (-) TimerEvent: {}
+[4.713326] (-) TimerEvent: {}
+[4.813719] (-) TimerEvent: {}
+[4.914058] (-) TimerEvent: {}
+[5.014410] (-) TimerEvent: {}
+[5.114745] (-) TimerEvent: {}
+[5.215071] (-) TimerEvent: {}
+[5.315437] (-) TimerEvent: {}
+[5.415723] (-) TimerEvent: {}
+[5.516117] (-) TimerEvent: {}
+[5.616348] (-) TimerEvent: {}
+[5.716580] (-) TimerEvent: {}
+[5.747439] (simple_realsense_ros) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable realsense_viewer\x1b[0m\n'}
+[5.816709] (-) TimerEvent: {}
+[5.916976] (-) TimerEvent: {}
+[6.017311] (-) TimerEvent: {}
+[6.117612] (-) TimerEvent: {}
+[6.217944] (-) TimerEvent: {}
+[6.318257] (-) TimerEvent: {}
+[6.360719] (simple_realsense_ros) StdoutLine: {'line': b'[ 81%] Built target realsense_viewer\n'}
+[6.418430] (-) TimerEvent: {}
+[6.518767] (-) TimerEvent: {}
+[6.619193] (-) TimerEvent: {}
+[6.719559] (-) TimerEvent: {}
+[6.819929] (-) TimerEvent: {}
+[6.920268] (-) TimerEvent: {}
+[7.020569] (-) TimerEvent: {}
+[7.120851] (-) TimerEvent: {}
+[7.221166] (-) TimerEvent: {}
+[7.321455] (-) TimerEvent: {}
+[7.421747] (-) TimerEvent: {}
+[7.522050] (-) TimerEvent: {}
+[7.622402] (-) TimerEvent: {}
+[7.672240] (simple_realsense_ros) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable depth_subscriber\x1b[0m\n'}
+[7.722506] (-) TimerEvent: {}
+[7.822806] (-) TimerEvent: {}
+[7.923117] (-) TimerEvent: {}
+[7.992014] (simple_realsense_ros) StdoutLine: {'line': b'[100%] Built target depth_subscriber\n'}
+[7.996275] (simple_realsense_ros) CommandEnded: {'returncode': 0}
+[7.996696] (simple_realsense_ros) JobProgress: {'identifier': 'simple_realsense_ros', 'progress': 'install'}
+[7.999928] (simple_realsense_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros'], 'cwd': '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'thornch'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/usr/local/onnxruntime-linux-x64-1.15.1/lib:/usr/local/onnxruntime-linux-x64-gpu-1.15.1/lib'), ('HOME', '/home/thornch'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/thornch/ROS2_Repo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '21502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install:/home/thornch/ROS2_Repo/pyqt_realsense/install:/home/thornch/ROS2_Repo/simple_realsense/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thornch'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/thornch/miniconda3/envs/onnx/lib/pkgconfig::/usr/local/lib/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thornch'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ONNXRUNTIME_ROOT', '/usr/local/onnxruntime-linux-x64-gpu-1.15.1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.1/bin:/usr/local/cuda-12.1/bin:/home/thornch/miniconda3/condabin:/home/thornch/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/onnxruntime-linux-x64-1.15.1/bin:/usr/local/onnxruntime-linux-x64-gpu-1.15.1/bin'), ('SESSION_MANAGER', 'local/thornch-ubuntu:@/tmp/.ICE-unix/2049,unix/thornch-ubuntu:/tmp/.ICE-unix/2049'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42cb3a76_f17f_44e5_a19a_3005bbbbe684'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.153'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/home/thornch/ROS2_Repo/simple_realsense/install/simple_realsense:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/thornch/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-12.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/thornch/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros:/home/thornch/ROS2_Repo/simple_realsense/install/simple_realsense:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble')]), 'shell': False}
+[8.003000] (simple_realsense_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.003095] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/realsense_viewer\n'}
+[8.004163] (simple_realsense_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/realsense_viewer" to ""\n'}
+[8.004216] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/depth_subscriber\n'}
+[8.007338] (simple_realsense_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/depth_subscriber" to ""\n'}
+[8.007415] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/include\n'}
+[8.007443] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/include/simple_realsense_ros\n'}
+[8.007472] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/include/simple_realsense_ros/viewer.h\n'}
+[8.007511] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/ament_index/resource_index/package_run_dependencies/simple_realsense_ros\n'}
+[8.007548] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/ament_index/resource_index/parent_prefix_path/simple_realsense_ros\n'}
+[8.007597] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/ament_prefix_path.sh\n'}
+[8.007647] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/ament_prefix_path.dsv\n'}
+[8.007694] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/path.sh\n'}
+[8.007743] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/path.dsv\n'}
+[8.007790] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.bash\n'}
+[8.007838] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.sh\n'}
+[8.007889] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.zsh\n'}
+[8.007934] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.dsv\n'}
+[8.007980] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/package.dsv\n'}
+[8.008043] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/ament_index/resource_index/packages/simple_realsense_ros\n'}
+[8.008105] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/cmake/simple_realsense_rosConfig.cmake\n'}
+[8.008143] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/cmake/simple_realsense_rosConfig-version.cmake\n'}
+[8.008186] (simple_realsense_ros) StdoutLine: {'line': b'-- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/package.xml\n'}
+[8.009380] (simple_realsense_ros) CommandEnded: {'returncode': 0}
+[8.020914] (simple_realsense_ros) JobEnded: {'identifier': 'simple_realsense_ros', 'rc': 0}
+[8.021289] (-) EventReactorShutdown: {}

@@ -1,0 +1,79 @@
+[0.007s] Invoking command in '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble /usr/bin/cmake /home/thornch/ROS2_Repo/simple_realsense_ros -DCMAKE_INSTALL_PREFIX=/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.300s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.326s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.449s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.499s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.520s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.522s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.527s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.570s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.571s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.624s] -- Found OpenSSL: /home/thornch/miniconda3/envs/onnx/lib/libcrypto.so (found version "3.3.1")
+[0.646s] -- Found FastRTPS: /opt/ros/humble/include
+[0.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.754s] -- Found Threads: TRUE
+[0.795s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.818s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.825s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[0.846s] -- Found OpenCV: /usr/local (found version "4.10.0")
+[0.884s] -- Configuring done (0.9s)
+[0.910s] -- Generating done (0.0s)
+[0.912s] -- Build files have been written to: /home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros
+[0.919s] Invoked command in '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble /usr/bin/cmake /home/thornch/ROS2_Repo/simple_realsense_ros -DCMAKE_INSTALL_PREFIX=/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros
+[0.921s] Invoking command in '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble /usr/bin/cmake --build /home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros -- -j24 -l24
+[0.946s] [  0%] Built target realsense_viewer_autogen_timestamp_deps
+[0.946s] [  0%] Built target depth_subscriber_autogen_timestamp_deps
+[0.967s] [  9%] [34m[1mAutomatic MOC and UIC for target realsense_viewer[0m
+[0.967s] [ 18%] [34m[1mAutomatic MOC and UIC for target depth_subscriber[0m
+[1.002s] [ 18%] Built target depth_subscriber_autogen
+[1.016s] [ 27%] [32mBuilding CXX object CMakeFiles/depth_subscriber.dir/src/depth_subscriber.cpp.o[0m
+[1.016s] [ 36%] [32mBuilding CXX object CMakeFiles/depth_subscriber.dir/depth_subscriber_autogen/mocs_compilation.cpp.o[0m
+[1.190s] [ 36%] Built target realsense_viewer_autogen
+[1.208s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense_viewer.dir/realsense_viewer_autogen/mocs_compilation.cpp.o[0m
+[1.208s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense_viewer.dir/src/main.cpp.o[0m
+[1.208s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense_viewer.dir/src/viewer.cpp.o[0m
+[5.747s] [ 72%] [32m[1mLinking CXX executable realsense_viewer[0m
+[6.360s] [ 81%] Built target realsense_viewer
+[7.672s] [ 90%] [32m[1mLinking CXX executable depth_subscriber[0m
+[7.992s] [100%] Built target depth_subscriber
+[7.996s] Invoked command in '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble /usr/bin/cmake --build /home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros -- -j24 -l24
+[8.000s] Invoking command in '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble /usr/bin/cmake --install /home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros
+[8.003s] -- Install configuration: ""
+[8.003s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/realsense_viewer
+[8.004s] -- Set non-toolchain portion of runtime path of "/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/realsense_viewer" to ""
+[8.004s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/depth_subscriber
+[8.007s] -- Set non-toolchain portion of runtime path of "/home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/lib/simple_realsense_ros/depth_subscriber" to ""
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/include
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/include/simple_realsense_ros
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/include/simple_realsense_ros/viewer.h
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/ament_index/resource_index/package_run_dependencies/simple_realsense_ros
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/ament_index/resource_index/parent_prefix_path/simple_realsense_ros
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/ament_prefix_path.sh
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/ament_prefix_path.dsv
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/path.sh
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/environment/path.dsv
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.bash
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.sh
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.zsh
+[8.007s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/local_setup.dsv
+[8.008s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/package.dsv
+[8.008s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/ament_index/resource_index/packages/simple_realsense_ros
+[8.008s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/cmake/simple_realsense_rosConfig.cmake
+[8.008s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/cmake/simple_realsense_rosConfig-version.cmake
+[8.008s] -- Installing: /home/thornch/ROS2_Repo/simple_realsense_ros/install/simple_realsense_ros/share/simple_realsense_ros/package.xml
+[8.009s] Invoked command in '/home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thornch/ROS2_Repo/pyqt_realsense/install/pyqt_realsense:/opt/ros/humble /usr/bin/cmake --install /home/thornch/ROS2_Repo/simple_realsense_ros/build/simple_realsense_ros
